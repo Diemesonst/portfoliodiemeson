@@ -1,0 +1,105 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Azul claro para o fundo */
+    color: #000; /* Preto para o texto */
+}
+
+/* Cabeçalho */
+header {
+    background: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #1e90ff; /* Azul brilhante para links */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Principal */
+main {
+    padding: 2rem;
+    background: #fff; /* Fundo branco para contraste */
+    border: 1px solid #1e90ff; /* Borda azul para destacar */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 2rem auto;
+    max-width: 800px; /* Largura máxima do conteúdo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Centralizar o formulário */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%; /* Largura do formulário */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 2rem;
+    background-color: #fff; /* Fundo branco */
+    border: 1px solid #1e90ff; /* Borda azul */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.contact-form label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem; /* Reduzido para um tamanho menor */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    background-color: #1e90ff; /* Azul */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content; /* Ajusta o tamanho ao texto */
+    align-self: center; /* Centraliza o botão no formulário */
+}
+
+.contact-form button:hover {
+    background-color: #000; /* Preto ao passar o mouse */
+}
+
+/* Centralizar o título */
+main h1 {
+    text-align: center;
+    margin-bottom: 1.5rem; /* Espaço abaixo do título */
+}
